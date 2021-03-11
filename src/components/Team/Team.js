@@ -13,14 +13,14 @@ const Team = (props) => {
         history.push(url);
     }
     return (
-        <div>
+        <div >
             
-            <Card style={{ width: '18rem' }} className='m-2 p-2 team-card'>
+            <Card style={{ width: '18rem' }} className='m-2 p-2 team-card '>
                 <Card.Img variant="top" src={strTeamBadge} className='card-img' />
                 <Card.Body>
-                    <Card.Title className='text-center'>{strTeam}</Card.Title>
-                    <Card.Text className='text-center'>Sports Type: {strSport}</Card.Text>
-                    <Button  variant="info" onClick={()=> showTeamDetails(idTeam)}>Explore <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
+                    <Card.Title >{strTeam}</Card.Title>
+                    <Card.Text >Sports Type: {strSport}</Card.Text>
+                    <Button variant="info" onClick={()=> showTeamDetails(idTeam)}>Explore <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                 </Card.Body>
             </Card>
 

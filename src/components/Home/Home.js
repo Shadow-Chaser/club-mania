@@ -17,7 +17,7 @@ const Home = () => {
             <div className="banner-img">
                 <img src={banner} alt=""/>
                 <div className="banner-text">
-                    <h1>Team Tracker</h1>
+                    <h1>Club Mania</h1>
                 </div>
             </div>
 

@@ -1,6 +1,5 @@
-# Premier League Teams
-
-Premier League Teams is a site that provides various information on teams playing in this league.
+# Club Mania
+Club Mania is a site that provides various information on teams playing in Premier League.
 
 ## Live Site
 

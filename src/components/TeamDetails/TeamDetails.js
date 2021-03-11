@@ -24,12 +24,14 @@ const TeamDetails = (props) => {
     const {strTeam, intFormedYear, strSport, strCountry, strDescriptionEN, strGender, strTeamBadge, strStadiumThumb} = teamDetails[0] || {};
     let Image;
     if(strGender === "Male"){
-        Image= <img className="badge-image" src={male} alt="" />;
+        Image = <img className="badge-image" src={male} alt="" />;
     }
     else if(strGender === "Female"){
-        Image =  <img className="badge-image" src={female} alt="" />
+        Image = <img className="badge-image" src={female} alt="" />
     }
-    // console.log(Image);
+    else{
+        Image = <img className="badge-image" src={female} alt="" />
+    }
     return (
         <div>
 

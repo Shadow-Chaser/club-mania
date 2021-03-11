@@ -22,7 +22,7 @@ const TeamDetails = (props) => {
         .then(data => setTeamDetails(data.teams))
     },[idTeam])
 
-    const {strTeam, intFormedYear, strSport, strCountry, strDescriptionEN, strGender, strTeamBadge} = teamDetails[0] || {};
+    const {strTeam, intFormedYear, strSport, strCountry, strDescriptionEN, strGender, strTeamBadge, strStadiumThumb} = teamDetails[0] || {};
     let Image;
     if(strGender === "Male"){
         Image= <img src={male} alt="" style = {{ width:'300px' }}/>;
@@ -35,7 +35,7 @@ const TeamDetails = (props) => {
         <div>
 
             <div className="team-banner-img">
-                <img src={banner} alt=""/>
+                <img src={strStadiumThumb} alt=""/>
                 <div className="team-banner-logo">
                     <img src={strTeamBadge} alt="" />
                 </div>

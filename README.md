@@ -3,7 +3,7 @@ Club Mania is a site that provides various information on teams playing in Premi
 
 ## Live Site
 
-[Click here ]()
+[Click here ](https://club-mania.netlify.app/)
 
 ## Features
 - Summarized Club Information

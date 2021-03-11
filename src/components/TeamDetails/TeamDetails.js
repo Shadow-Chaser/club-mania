@@ -30,7 +30,7 @@ const TeamDetails = (props) => {
     else if(strGender === "Female"){
         Image =  <img src={female} alt="" style = {{ width:'300px' }}/>
     }
-    console.log(Image);
+    // console.log(Image);
     return (
         <div>
 

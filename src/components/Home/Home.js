@@ -23,7 +23,7 @@ const Home = () => {
 
             <Row className='d-flex justify-content-center'>
                 {
-                    teams.map(team => <Team team = {team}></Team>)
+                    teams.map(team => <Team team = {team} key={team.idTeam} ></Team>)
                 }
             </Row>     
         </div>

@@ -4,7 +4,6 @@ import { useParams } from 'react-router';
 import { Row, Col } from 'react-bootstrap';
 import male from '../../assets/male.png'
 import female from '../../assets/female.png'
-import banner from '../../assets/banner.jpg'
 import './TeamDetails.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faFlag, faFutbol, faMars } from '@fortawesome/free-solid-svg-icons'

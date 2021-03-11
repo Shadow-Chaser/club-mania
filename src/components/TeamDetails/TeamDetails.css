@@ -1,0 +1,21 @@
+.banner{
+    background-color: #3A42FF;
+    margin: 20px;
+    border-radius: 10px;
+    color:white;
+    /* width: 75%; */
+}
+
+.second-col{
+    padding: 15px;
+}
+.main-container{
+    width: 80%;
+  
+    margin-left: 10%;
+}
+
+.first-col{
+    margin-top: 2%;
+    margin-left: 7%;
+}

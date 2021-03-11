@@ -35,7 +35,7 @@ const TeamDetails = (props) => {
         <div>
 
             <div className="team-banner-img">
-                <img src={strStadiumThumb} alt=""/>
+                <img src={strStadiumThumb} alt=""/>n
                 <div className="team-banner-logo">
                     <img src={strTeamBadge} alt="" />
                 </div>

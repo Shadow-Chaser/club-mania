@@ -6,3 +6,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.team-card:hover{
+    box-shadow:  10px 10px 15px gray;
+}

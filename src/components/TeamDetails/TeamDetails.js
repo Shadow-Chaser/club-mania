@@ -4,6 +4,7 @@ import { useParams } from 'react-router';
 import { Row, Col } from 'react-bootstrap';
 import male from '../../assets/male.png'
 import female from '../../assets/female.png'
+import banner from '../../assets/banner.jpg'
 import './TeamDetails.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faFlag, faFutbol, faMars } from '@fortawesome/free-solid-svg-icons'
@@ -21,7 +22,7 @@ const TeamDetails = (props) => {
         .then(data => setTeamDetails(data.teams))
     },[idTeam])
 
-    const {strTeam, intFormedYear, strSport, strCountry, strDescriptionEN, strGender} = teamDetails[0] || {};
+    const {strTeam, intFormedYear, strSport, strCountry, strDescriptionEN, strGender, strTeamBadge} = teamDetails[0] || {};
     let Image;
     if(strGender === "Male"){
         Image= <img src={male} alt="" style = {{ width:'300px' }}/>;
@@ -32,6 +33,13 @@ const TeamDetails = (props) => {
     console.log(Image);
     return (
         <div>
+
+            <div className="team-banner-img">
+                <img src={banner} alt=""/>
+                <div className="team-banner-logo">
+                    <img src={strTeamBadge} alt="" />
+                </div>
+            </div>
             
             <div className="main-container ">
                 <Row className='banner d-flex justify-content-around'>

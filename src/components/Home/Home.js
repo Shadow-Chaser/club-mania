@@ -13,7 +13,7 @@ const Home = () => {
 
     },[])
     return (
-        <div>
+        <div className='home-container'>
             <div className="banner-img">
                 <img src={banner} alt=""/>
                 <div className="banner-text">
